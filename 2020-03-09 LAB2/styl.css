@@ -1,0 +1,39 @@
+* { font-family: Tahoma }
+ body { margin: 5em 10em 5em 10em;
+	background-image: url(cake.jpg); background-repeat: repeat-y; background-size: 50px 50px;
+ }
+ p { text-align: justify }
+ li { list-style-type: square }
+ #cena {
+	 color: red;
+	 font-weight: bold;
+ }
+ 
+ .wstep {
+	 font-style: italic;
+ }
+
+ td img {
+	 border: 2px solid blue;
+	 width: 100%;
+ }
+ 
+ td img:hover {
+	 border: 2px solid red;
+	 width: 100%;
+ }
+ 
+ h1 + h2 {
+	 letter-spacing: 5px;
+ }
+ 
+ td[colspan="2"] p {
+	 font-size: small;
+ }
+ p + p {
+	color: grey;
+ } 
+ 
+h1 { color: green } 
+h1 { color: blue }
+
